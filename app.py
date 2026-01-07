@@ -19,7 +19,7 @@ def get_hit_count():
 @app.route('/')
 def hello():
     count = get_hit_count()
-    return 'Hello JD SRE! From VS Code & Git! Count: {}\n'.format(count)
+    return 'Version 2.0: Deployment is so fast now! Count: {}\n'.format(count)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
